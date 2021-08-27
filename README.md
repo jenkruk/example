@@ -2,5 +2,5 @@
 
 ## README's use Markdown language
 
-### HTML / CSS / JS Structure example for Tammy
+### HTML / CSS / JS Structure example for Students
 
