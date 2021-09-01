@@ -32,7 +32,7 @@ nav {
     /* justify-self: right; */
 }
 
-ul {
+nav ul {
     align-self: center;
     justify-self: right;
     list-style-type: none;
@@ -42,30 +42,38 @@ ul {
     /* background-color: pink; */
 }
 
-li {
+nav ul li {
     margin-left: 5vw;
     text-align: right;
     /* background-color: purple; */
 }
 
-.container {
-    background-color: #fff;
-    width: 80vw;
-    margin: 0 10vw;
-    text-align: center;
-    height: 100vh;
-    padding: 7vh 5vh;
-    
+a {
+    color: white;
+    text-decoration: none;
 }
 
-#top {
+a:hover {
+    text-decoration: underline overline;
+    text-underline-position: under;
+}
+
+.container {
+    background-color: #fff;
+    width: 66vw;
+    height: auto;
+    margin: 3vh auto;
+    text-align: center;
+    padding: 2em;
     border: 6px double lightgrey;
-    padding: 3vh 0;
-    /* border-radius: 5px; */
 }
 
 h1 {
     margin: 0;
+}
+
+pre {
+    white-space: pre-wrap;
 }
 
 .italic {
@@ -74,5 +82,50 @@ h1 {
 
 address {
     margin-top: 2vh;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column {
+    background-color: #fff;
+    width: 20vw;
+    height: auto;
+    margin-bottom: 3vh;
+    text-align: center;
+    padding: 2em;
+    border: 6px double lightgrey;
+}
+
+.columnTwo {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    justify-content: space-between;
+    bottom: 0;
+}
+
+footer ul {
+    align-self: center;
+    list-style-type: none;
+    display: flex;
+    width: 50vw;
+}
+
+footer ul li {
+    margin-left: 5vw;
+}
+
+footer #logo{
+    margin-right: 10vw;
 }
 
